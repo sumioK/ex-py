@@ -54,4 +54,26 @@ print('###########################################')
 
 a = 5
 b = 3
-print(str(a) + '%'+ str(b) + '=2')
+# print(str(a) + '%'+ str(b) + '=2')
+ans = "{}%{}={}".format(a, b, a%b)
+print(ans)
+
+print('###########################################')
+
+str = 'some1'
+str = str.replace('1', 'one')
+print(str)
+
+print('###########################################')
+
+str = 'This Is A Sentence .'
+str = str.lower()
+print(str)
+
+print('###########################################')
+
+str = 'This Is A Sentence .'
+str = str.upper()
+print(str)
+
+print('###########################################')
