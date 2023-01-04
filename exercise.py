@@ -172,3 +172,18 @@ d={'apple': 10, 'grape': 20, 'orange': 30}
 d['apple'] = d.get('apple', -1)
 d['pineapple'] =d.get('pineapple', -1)
 print(d)
+
+print('###########################################')
+
+a = 'training'
+print(a[1:5])
+
+print('###########################################')
+
+s = 'understand'
+print(s[1::2])
+
+print('###########################################')
+
+l = [1, 2, 3, 4, 5]
+print(l[::-1])
