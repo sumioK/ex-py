@@ -219,3 +219,21 @@ data3 = {1, 2, 3, 4, 5}
 print(type(data1))
 print(type(data2))
 print(type(data3))
+
+print('###########################################')
+
+s = 'This is sentence . \n'
+print(s.strip('\n'))
+
+print('###########################################')
+
+s = 'C C++ // python java'
+print(s.split(' '))
+print(s.split('/'))
+
+print('###########################################')
+li = ['This', 'is', 'a', 'sentence']
+ans = ' '.join(li)
+print(ans)
+
+
